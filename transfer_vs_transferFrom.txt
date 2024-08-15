@@ -1,0 +1,9 @@
+Transfer and TransferFrom are two of the 6 functions that must be implemented
+in order to adhere to the ERC-20 standart (the technical standart for establishing fungible assets
+on the Ethereum blockchain).
+
+The Transfer function is used to transfer a token from a token's owner to another address.
+The TransferFrom function is used to transfer a user's token by a third, approved party.
+
+In order to approve another entity to perform TransferFrom requests - the Approve function must be used.
+Approve also allows limiting the number of allowed tokens to be transferred.
